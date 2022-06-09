@@ -33,6 +33,7 @@ body {
     font-weight: bold;
     text-decoration: none;
     background-color: gold;
+    font-size: 90%;
 }
 
 #article1,
@@ -74,5 +75,6 @@ body {
 .image {
     max-width: 40%;
 }
-        
+.action-btn {
+    font-size: 110%;
 }
