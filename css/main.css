@@ -15,8 +15,9 @@ redbold:#e63946;
     margin-right: auto;
     margin-left: auto;
 } */
-header {
-    background-color: orange;
+
+html {
+    scroll-behavior: smooth;
 }
 body {
     margin: 0;
@@ -56,12 +57,22 @@ body {
 .info-chunk p {
     padding: 1rem;
 }
-#infographic {
-    border: solid 2px #1d3557;
+.infographic,
+.image {
+    border: solid .5rem #1d3557;
+    max-width: 95%;
 }
-
+@media screen and (min-width: 900px) {
 .side-side {
     display: flex;
     justify-content: space-around;
 }
-            
+.infographic {
+    max-width: 50%;
+}
+.side-p,
+.image {
+    max-width: 40%;
+}
+        
+}
