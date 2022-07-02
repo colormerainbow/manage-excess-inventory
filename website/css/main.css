@@ -63,6 +63,9 @@ body {
     border: solid .5rem #1d3557;
     max-width: 95%;
 }
+.items li {
+    list-style: none;
+}
 @media screen and (min-width: 900px) {
 .side-side {
     display: flex;
